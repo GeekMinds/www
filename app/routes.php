@@ -13,11 +13,10 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('index');
 });
 
-
-Route::get('/inicio', function()
+Route::get('/404', function()
 {
-	return View::make('inicio');
+	return View::make('404');
 });
