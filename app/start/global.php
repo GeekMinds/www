@@ -83,6 +83,4 @@ App::missing(function($exception )
 		return View::make('404')->withMessage($exception->getMessage());
 });
 
-
-
 require app_path().'/filters.php';

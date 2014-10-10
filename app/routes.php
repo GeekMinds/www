@@ -20,3 +20,11 @@ Route::get('/404', function()
 {
 	return View::make('404');
 });
+
+Route::get('/sobre-nosotros',function(){
+	return View::make('sobre-nosotros');
+});
+
+Route::get('/contacto',function(){
+	return View::make('contacto');
+});

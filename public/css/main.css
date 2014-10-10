@@ -2539,3 +2539,12 @@ shortcodes page css
   color: #fff;
   font-size: 20px;
 }
+.navbar-header h1{
+  margin-top: 0;
+}
+.navbar-header h1 img{
+  width: 130px;
+}
+.login{
+  text-align: right;
+}
