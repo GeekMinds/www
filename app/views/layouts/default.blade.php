@@ -9,21 +9,21 @@
     <title>GeekMinds Community of Creativity | Freelancers Guatemala</title>
 
   <!-- core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/prettyPhoto.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="css/responsive.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/css/animate.min.css" rel="stylesheet">
+    <link href="/css/prettyPhoto.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+    <link href="/css/responsive.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="/images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="/images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body class="homepage">
@@ -32,10 +32,10 @@
         <div class="top-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-3 col-xs-4">
+                    <div class="col-sm-4 col-xs-4">
                         <div class="top-number"><p><i class="fa fa-phone-square"></i> Necesitas Ayuda | +502 2339 5442</p></div>
                     </div>
-                    <div class="col-sm-6 col-xs-4">
+                    <div class="col-sm-5 col-xs-4">
                         <div class="top-number login"><p><i class=""></i> <a href="/registro" title="Nuevo Registro en GeekMinds">Registro</a> | <a href="/login" title="Ingresa a la Plataforma GeekMinds">Login</a> </p></div>
                     </div>
                     <div class="col-sm-3 col-xs-8">
@@ -68,7 +68,7 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                       </button>
-                      <h1><a class="navbar-brand" href="/"><img src="images/logo.jpg" alt="GeeMinds Guatemala"></a></h1>
+                      <h1><a class="navbar-brand" href="/"><img src="/images/logo.jpg" alt="GeeMinds Guatemala"></a></h1>
                   </div>
 
                   <div class="collapse navbar-collapse navbar-right">
@@ -87,34 +87,22 @@
 
     </header><!--/header-->
 
-    <!--main-slider-->
       @yield('slider')
-    <!--/#main-slider-->
 
-    <!-- feature -->
       @yield('featured')
-    <!--/#feature-->
+
       @yield('recent-work')
-    <!--/#recent-works-->
-    <!-- services -->
+
       @yield('services')
-    <!--/#services-->
 
-    <!-- middle -->
       @yield('middle')
-    <!--/#middle-->
 
-    <!-- content -->
       @yield('content')
-    <!--/#content-->
 
-    <!-- partners -->
       @yield('partners')
-    <!--/#partners-->
 
-    <!-- contact-info -->
       @yield('contact-rapid')
-    <!--/#conatcat-info-->
+
 
     <section id="bottom">
         <div class="container wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -200,11 +188,11 @@
         </div>
     </footer><!--/#footer-->
 
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.prettyPhoto.js"></script>
-    <script src="js/jquery.isotope.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/wow.min.js"></script>
+    <script src="/js/jquery.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/jquery.prettyPhoto.js"></script>
+    <script src="/js/jquery.isotope.min.js"></script>
+    <script src="/js/main.js"></script>
+    <script src="/js/wow.min.js"></script>
 </body>
 </html>

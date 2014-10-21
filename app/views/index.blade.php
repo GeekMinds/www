@@ -2,6 +2,7 @@
 
 
 @section('slider')
+  <!--main-slider-->
   <section id="main-slider" class="no-margin">
       <div class="carousel slide">
           <ol class="carousel-indicators">
@@ -79,10 +80,11 @@
       <a class="next hidden-xs" href="#main-slider" data-slide="next">
           <i class="fa fa-chevron-right"></i>
       </a>
-  </section>
+  </section><!--/#main-slider-->
 @stop
 
 @section('featured')
+<!-- feature -->
 <section id="feature" >
     <div class="container">
        <div class="center wow fadeInDown">
@@ -142,11 +144,12 @@
             </div><!--/.services-->
         </div><!--/.row-->
     </div><!--/.container-->
-</section>
+</section><!--/#feature-->
 @stop
 
 
 @section('recent-work')
+<!--recent-works-->
 <section id="recent-works">
     <div class="container">
         <div class="center wow fadeInDown">
@@ -260,11 +263,12 @@
             </div>
         </div><!--/.row-->
     </div><!--/.container-->
-</section>
+</section><!--/#recent-works-->
 @stop
 
 
 @section('services')
+<!-- services -->
 <section id="services" class="service-item">
  <div class="container">
         <div class="center wow fadeInDown">
@@ -347,11 +351,12 @@
             </div>
         </div><!--/.row-->
     </div><!--/.container-->
-</section>
+</section><!--/#services-->
 @stop
 
 
 @section('middle')
+<!-- middle -->
 <section id="middle">
     <div class="container">
         <div class="row">
@@ -482,10 +487,11 @@
 
         </div><!--/.row-->
     </div><!--/.container-->
-</section>
+</section><!--/#middle-->
 @stop
 
 @section('content')
+<!-- content -->
 <section id="content">
     <div class="container">
         <div class="row">
@@ -574,10 +580,11 @@
 
         </div><!--/.row-->
     </div><!--/.container-->
-</section>
+</section><!--/#content-->
 @stop
 
 @section('partners')
+<!-- partners -->
 <section id="partner">
     <div class="container">
         <div class="center wow fadeInDown">
@@ -595,10 +602,11 @@
             </ul>
         </div>
     </div><!--/.container-->
-</section>
+</section><!--/#partners-->
 @stop
 
 @section('contact-rapid')
+<!-- contact-info -->
 <section id="conatcat-info">
     <div class="container">
         <div class="row">
@@ -615,5 +623,5 @@
             </div>
         </div>
     </div><!--/.container-->
-</section>
+</section><!--/#conatcat-info-->
 @stop

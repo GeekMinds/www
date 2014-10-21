@@ -11,20 +11,50 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('index');
-});
+/*
+|		Pagina Principal
+*/
 
-Route::get('/404', function()
-{
-	return View::make('404');
-});
+Route::get('/','MainController@comming');
 
-Route::get('/sobre-nosotros',function(){
-	return View::make('sobre-nosotros');
-});
+Route::get('/inicio','MainController@index');
 
-Route::get('/contacto',function(){
-	return View::make('contacto');
-});
+/*
+|		Pagian con Informacion sobre Nosotros
+*/
+
+Route::get('/sobre-nosotros', 'MainController@aboutUs');
+
+/*
+|		Pagina con las Frecuent Asked Questions
+*/
+
+Route::get('/preguntas-frecuentes','MainController@faq');
+
+/*
+|		Pagina de Contacto Principal
+*/
+
+Route::get('/contacto','MainController@contacto');
+
+/*
+|404 | Pagina para manejar los exceptions de no encontrados
+*/
+
+Route::get('/404','ErrorsController@NoEncontrado');
+
+/*
+|		Pagina para Validar el Tipo de Registro que sera
+*/
+
+Route::get('/registro','RegistroController@index');
+
+/*
+|		Pagina para Validar el Tipo de Registro que sera
+*/
+
+Route::get('registro/empresa' , 'RegistroEmpresaController@index');
+
+Route::get('politicas/','PoliticasController@index');
+Route::get('politicas/privacidad/{network}','PoliticasController@privacidad');
+Route::get('politicas/terms-of-service/{network}','PoliticasController@privacidad');
